@@ -1,0 +1,52 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 1s ease-in-out;
+}
+
+.inner-navbar-box{
+    width: 100%;
+    /* border-bottom: 3px solid black; */
+    transition: 1s ease-in-out;
+    padding: 8px;
+    box-shadow: 0px 1px 3px 1px;
+
+}
+.inner-navbar-box h3{
+    margin-top: 2px;
+    color:#ffff;
+}
+
+.inner-container-fluid{
+    margin-top: 30px;
+    padding:px;
+}
+.dateStamp{
+   margin-bottom: 5px;
+}
+.timeStamp{
+    font-size: 26px;
+    padding: 3px;
+}
+.timeStamp a:hover{
+    text-decoration: none;
+}
+.cityStamp{
+    margin-top: 5px;
+}
+.title-under-city{
+   margin-top: -4px; 
+   font-size:14px;
+}
+.img-logo{
+    margin-top: -10px;
+    height: 150px;
+    width: 150px;
+}
+.tempratureStamp{
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.dateStamp{
+    margin-top: 10px;
+}

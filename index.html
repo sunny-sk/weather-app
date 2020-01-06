@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Today Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+</head>
+<body>
+   
+       <div class="container-fluid inner-navbar-box">
+           <center>
+               <h3>Today Weather</h3>
+           </center>
+       </div>
+
+    <div class="container-fluid">
+        <div class="inner-container-fluid container">
+            <div class="container dateStamp">
+                    <center>
+                            <div class="date"></div>
+                    </center>
+            </div>    
+            <div class="container timeStamp">
+                <center>
+                        <a class="hour" href="#"></a>
+                        <a class="minute" href="#"></a>
+                        <a class="ampm" href="#"></a>
+                </center>
+            </div>
+            <div class="container cityStamp">
+                <center>
+                    <div>
+                        <h3 class="city">Gurugram</h3>
+                        <p class="title-under-city">clean weather</p>
+                    </div>
+                </center>
+            </div>
+            <div class="container ">
+                <center>
+                    <div class="img-logo">
+                         <!-- <img src="img/logo.png" class="img-fluid" alt=""> -->
+                         <canvas id="icon1" width="128" height="128"></canvas>
+                    </div>
+                </center>
+            </div>
+            <div class="container tempratureStamp">
+                <center>
+                    <h4 class="temprature-f"></h4>
+                    <h4 class="temprature-c"></h4>
+                </center>
+            </div>
+    
+            <!-- <div class="container dayStamp">
+                    <center>
+                        <div class="dayStamp">
+                            <h4 class="day">Monday</h4>
+                        </div>
+                    </center>
+            </div> -->
+        </div>        
+    </div>
+   <div class="conatainer-fluid news">
+        <div class="container">
+             
+        </div>
+   </div>
+   <script src="app.js"></script>
+   <script src="skycons.js"></script>
+   <script src="location.js"></script>
+</body>
+</html>
